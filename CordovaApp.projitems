@@ -1,14 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-    <PropertyGroup>
-        <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
-        <HasSharedItems>true</HasSharedItems>
-        <SharedGUID>9ebdb27f-d75b-4d8c-b53f-7be4a1fe89f9</SharedGUID>
-    </PropertyGroup>
-    <ItemGroup>
-        <Content Include="$(MSBuildThisFileDirectory)www\**" />
-    </ItemGroup>
-    <ItemGroup>
-        <Content Include="$(MSBuildThisFileDirectory)config.xml" />
-    </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>9ebdb27f-d75b-4d8c-b53f-7be4a1fe89f9</SharedGUID>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)MultilingualResources\CordovaApp.Windows80.ru-RU.xlf" />
+    <None Include="$(MSBuildThisFileDirectory)MultilingualResources\CordovaApp.Windows80.pt.xlf" />
+    <None Include="$(MSBuildThisFileDirectory)MultilingualResources\CordovaApp.Windows80.ja-JP.xlf" />
+    <None Include="$(MSBuildThisFileDirectory)MultilingualResources\CordovaApp.Windows80.it.xlf" />
+    <None Include="$(MSBuildThisFileDirectory)MultilingualResources\CordovaApp.Windows80.hu-HU.xlf" />
+    <None Include="$(MSBuildThisFileDirectory)MultilingualResources\CordovaApp.Windows80.de.xlf" />
+    <None Include="$(MSBuildThisFileDirectory)MultilingualResources\CordovaApp.Windows80.fr.xlf" />
+    <None Include="$(MSBuildThisFileDirectory)MultilingualResources\CordovaApp.Windows80.es.xlf" />
+    <None Include="$(MSBuildThisFileDirectory)MultilingualResources\CordovaApp.Windows80.en.xlf" />
+    <None Include="$(MSBuildThisFileDirectory)MultilingualResources\CordovaApp.Windows80.nl.xlf" />
+    <None Include="$(MSBuildThisFileDirectory)MultilingualResources\CordovaApp.Windows80.cs-CZ.xlf" />
+    <None Include="$(MSBuildThisFileDirectory)MultilingualResources\CordovaApp.Windows80.zh-Hans.xlf" />
+    <None Include="$(MSBuildThisFileDirectory)MultilingualResources\CordovaApp.Windows80.qps-ploc.xlf" />
+    <Content Include="$(MSBuildThisFileDirectory)www\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)config.xml" />
+  </ItemGroup>
 </Project>

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
-  <Identity Name="dd6047b0-6b14-11e4-a3f0-6da8295a93ef" Publisher="CN=$username$" Version="1.1.0.0" />
+  <Identity Name="dd6047b0-6b14-11e4-a3f0-6da8295a93ef" Publisher="CN=$username$" Version="1.7.0.13" />
   <Properties>
     <DisplayName>com.moodle.moodlemobile</DisplayName>
-    <PublisherDisplayName>$username$</PublisherDisplayName>
+    <PublisherDisplayName>Moodle Pty Ltd.</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
   <Prerequisites>
@@ -15,19 +15,25 @@
   </Resources>
   <Applications>
     <Application Id="MoodleMobile" StartPage="www/index.html">
-      <m2:VisualElements DisplayName="com.moodle.moodlemobile" Description="CordovaApp" BackgroundColor="#464646" ForegroundText="light" Square150x150Logo="images\logo.png" Square30x30Logo="images\smalllogo.png">
+      <m2:VisualElements DisplayName="MoodleMobile" Description="Moodle Mobile official app" BackgroundColor="#464646" ForegroundText="light" Square150x150Logo="images\logo.png" Square30x30Logo="images\smalllogo.png" ToastCapable="true">
         <m2:DefaultTile>
           <m2:ShowNameOnTiles>
             <m2:ShowOn Tile="square150x150Logo" />
           </m2:ShowNameOnTiles>
         </m2:DefaultTile>
         <m2:SplashScreen Image="images\splashscreen.png" />
+        <m2:InitialRotationPreference>
+          <m2:Rotation Preference="landscape" />
+          <m2:Rotation Preference="landscapeFlipped" />
+        </m2:InitialRotationPreference>
       </m2:VisualElements>
     </Application>
   </Applications>
   <Capabilities>
     <Capability Name="internetClient" />
     <Capability Name="picturesLibrary" />
+    <Capability Name="musicLibrary" />
+    <Capability Name="videosLibrary" />
     <DeviceCapability Name="webcam" />
     <DeviceCapability Name="microphone" />
   </Capabilities>

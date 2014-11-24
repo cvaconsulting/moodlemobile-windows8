@@ -1,0 +1,1 @@
+MainPackage=C:\Users\juanleyvadelgado\Documents\moodlemobile\platforms\windows\build\windows80\Release\AnyCPU\CordovaApp.Windows80_1.8.0.0_Bundle\CordovaApp.Windows80_1.8.0.0_AnyCPU.appx

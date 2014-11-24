@@ -3,4 +3,11 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>AppHostSimulatorDebugger</DebuggerFlavor>
   </PropertyGroup>
+  <PropertyGroup>
+    <ReferenceCachePath>C:\Users\juanleyvadelgado\AppData\Local\Temp\CordovaApp.Windows80_refcache</ReferenceCachePath>
+    <ShowAllFiles>true</ShowAllFiles>
+    <AppxPackageIsForStore>True</AppxPackageIsForStore>
+    <AppxShowAllApps>True</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>neutral</AppxBuildConfigurationSelection>
+  </PropertyGroup>
 </Project>
